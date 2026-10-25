@@ -1,0 +1,74 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1129005,
+    "appName": "Anduin",
+    "appType": "app",
+    "version": {
+      "code": 32,
+      "name": "1.0.31"
+    },
+    "icon": "icon.png",
+    "vender": "Pimba",
+    "description": "Anduin - Aplicacion de natacion profesional para Amazfit GTR 3 Pro"
+  },
+  "permissions": [
+    "data:user.hd.heart_rate",
+    "device:os.heart_rate",
+    "data:user.hd.calorie",
+    "device:os.accelerometer"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "minVersion": "1.0.0",
+      "compatible": "1.0.0",
+      "target": "1.0.0"
+    }
+  },
+  "targets": {
+    "480x480-gtr-3-pro": {
+      "module": {
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        },
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "gtr-3-pro",
+          "deviceSource": 229
+        },
+        {
+          "name": "gtr-3-pro-w",
+          "deviceSource": 230
+        },
+        {
+          "name": "gtr-3-pro-merlin",
+          "deviceSource": 6095106
+        }
+      ]
+    }
+  },
+  "defaultLanguage": "es-ES",
+  "i18n": {
+    "es-ES": {
+      "appName": "Anduin"
+    },
+    "es-AR": {
+      "appName": "Anduin"
+    },
+    "es-419": {
+      "appName": "Anduin"
+    },
+    "en-US": {
+      "appName": "Anduin"
+    }
+  }
+}
